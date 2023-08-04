@@ -1,0 +1,68 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    min-width: 850px;
+    background-color: antiquewhite;
+    display: flex;    
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.logoContainer{
+    cursor: pointer;
+    padding: 4px;
+    font-size: 27px;
+    font-weight: 200;
+    text-justify: center;
+    color: #775f3f;
+    text-shadow: 1px 1px 4px #494930;
+}
+
+.miniLogo{
+    position: absolute;
+    top: 40px;    
+    font-size: 10px;
+}
+
+.navbarContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.daysSelectContainer{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.userButton{
+    padding: 10px;
+    margin-left: 4px;
+    border:0;
+    background-color: #f0c284;
+    font-weight: 200;
+    font-size: 13px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.Select{
+    z-index: 9999999;
+    
+}
+
+
+/* Date range */
+.dateBox{
+    position: absolute;
+    top: 60px;
+    
+    z-index: 200;
+    box-shadow: 0px 1px 2px #494930;
+}
